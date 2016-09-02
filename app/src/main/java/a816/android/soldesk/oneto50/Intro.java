@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class Intro extends Activity {
+public class Intro extends AppCompatActivity {
 
     Button btnStart,btnRank;
 
@@ -28,7 +28,7 @@ public class Intro extends Activity {
             }
         });
 
-
+        getSupportActionBar().hide();
 
     }
 

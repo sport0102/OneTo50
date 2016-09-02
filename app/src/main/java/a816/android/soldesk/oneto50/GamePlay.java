@@ -12,7 +12,7 @@ import android.widget.Toast;
 import android.os.Handler;
 import java.util.ArrayList;
 
-public class GamePlay extends Activity {
+public class GamePlay extends AppCompatActivity {
 
     Button btnStart;
     Button bt;
@@ -40,6 +40,7 @@ public class GamePlay extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gameview);
+        getSupportActionBar().hide();
         btnStart = (Button) findViewById(R.id.startButton);
         nextNo = (TextView) findViewById(R.id.nextNo);
         timeView = (TextView) findViewById(R.id.timeView);
