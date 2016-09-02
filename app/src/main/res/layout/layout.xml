@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="a816.android.soldesk.oneto50.Intro">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgIntro"
+        android:src="@drawable/image1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMainStart"
+        android:background="@color/button"
+        android:text="시작 하기"
+        android:textSize="10pt"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/fontColor"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMainRanking"
+        android:background="@color/button"
+        android:text="기록 보기"
+        android:textSize="10pt"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/fontColor"
+        />
+</LinearLayout>
+
+
+
